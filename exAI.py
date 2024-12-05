@@ -8,14 +8,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.preprocessing import StandardScaler
 import google.generativeai as genai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import io
 
 class ExplainableAIAnalyzer:
     def __init__(self):
         """Initialize Gemini API connection and Explainable AI Analyzer."""
-        load_dotenv()
+        
         api_key = os.getenv("GEMINI_API_KEY")
         
         if not api_key:
