@@ -4,5 +4,5 @@ pandas
 numpy
 scikit-learn
 google-generativeai
-dotenv
+python-dotenv
 
