@@ -16,7 +16,7 @@ class ExplainableAIAnalyzer:
     def __init__(self):
         """Initialize Gemini API connection and Explainable AI Analyzer."""
         load_dotenv()
-        api_key = "AIzaSyB-8BpC4oEsK0LF9Ap_2OTGM9hRLWA4nS4"
+        api_key = GEMINI_API_KEY
         
         if not api_key:
             raise ValueError("GEMINI API KEY not found in environment variables")
