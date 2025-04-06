@@ -25,7 +25,7 @@ This Streamlit application provides a multi-page toolkit for performing data ana
 *   **Session State Management:** Persists uploaded data, analysis results, and chat history across different pages within a user session.
 *   **Configuration:** Requires Google Gemini API key configured via environment variables.
 
-## 🛠Technology Stack
+## Technology Stack
 
 *   **Frontend / UI:** Streamlit
 *   **AI / LLM:** Google Gemini API (`gemini-1.5-flash`) via `google-generativeai` library
